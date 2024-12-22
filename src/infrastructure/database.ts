@@ -9,6 +9,7 @@ const connectDB = async () => {
             console.log('uri was empty');
             return ;
         }
+        console.log(uri);
         await connect(uri);
         console.log("MongoDB connected");
     } catch (err) {
