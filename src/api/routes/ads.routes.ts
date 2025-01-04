@@ -5,8 +5,8 @@ const router = Router();
 
 router.post("/ads-create", createAd);
 router.get("/ads-getall", getAllAds);
-// router.patch("/img-upd", updateAdImage);
-// router.patch("/target-upd", updateAdTarget);
-// router.delete("/ads-del", deleteAd);
+router.patch("/img-upd", updateAdImage);
+router.patch("/target-upd", updateAdTarget);
+router.delete("/ads-del", deleteAd);
 
 export default router;
